@@ -1,7 +1,7 @@
 country_capitals={"USA" : "Washington, D.C.", "France" : "Paris", "Germany" : "Berlin", "Japan" : "Tokyo", "UK" : "London"}
 
 country=input("Enter a country name: ")
-if country == "USA":  #in country_capitals:
+if country == "USA":  
     print(f"{country_capitals[country]}")
 elif country == "France":
      print(f"{country_capitals[country]}")
